@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="todo-app.css">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <div class="bg-image"></div>
+        <div class="todo-container">
+            <div class="todo-container__head">
+                <h1>Todo</h1>
+                <img id="theme-toggler" alt="Theme">
+            </div>
+            <div class="todo-container__add-todo">
+                <input type="text" id="add-todo" placeholder="Create a new todo...">
+            </div>
+            <div class="todo-container__todo-list">
+                <div class="todo-list__cont">
+                    <!-- <div class="todo-list__item todo-list__item--complete">
+                        <div class="todo-list__item-text">Simple Todo</div>
+                        <div class="todo-list__item-delete">✕</div>
+                    </div> -->
+                </div>
+                <div class="todo-list__sort">
+                    <div class="item-left">0 items left</div>
+                    <div class="sort-options">
+                        <div class="sort-options__item sort-option__item--active">All</div>
+                        <div class="sort-options__item">Active</div>
+                        <div class="sort-options__item">Completed</div>
+                    </div>
+                    <div class="clear-option">Clear Completed</div>
+                </div>
+            </div>
+            <div class="todo-container__todo-sort ">
+                <div class="sort-options__item sort-option__item--active">All</div>
+                <div class="sort-options__item">Active</div>
+                <div class="sort-options__item">Completed</div>
+            </div>
+        </div>
+    </div>
+    <script src="todo-app.js"></script>
+</body>
+</html>
