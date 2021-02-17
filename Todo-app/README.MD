@@ -1,9 +1,9 @@
-#Todo App
+# Todo App
 
 Create your own todo list.  
 App resources and design comes from frontend mentor
 
-##Features
+## Features
 - [x] Add multiple todo items
 - [x] Complete and delete todo items
 - [x] Allow to clear all completed
