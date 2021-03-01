@@ -7,4 +7,7 @@ SEE LIST 👇
 |---|---|---|
 | 1 | [Todo App](https://github.com/Jaco020/JS-Mini-Projects/tree/master/Todo-app) | [Live Demo](https://jsprojects-todo-app.netlify.app/)  |
 | 2 | [Note App](https://github.com/Jaco020/JS-Mini-Projects/tree/master/oneNote)  |  [Live Demo](https://jsprojects-one-note.netlify.app/) |
+| 3 | [IMG-Slider](https://github.com/Jaco020/JS-Mini-Projects/tree/master/IMG-Slider)  |  [Live Demo](https://jsprojects-img-slider.netlify.app/) |
+| 4 | [Quote-app](https://github.com/Jaco020/JS-Mini-Projects/tree/master/Quote-app)  |  [Live Demo](https://jsprojects-quote-app.netlify.app/) |
+| 5 | [ColorShades](https://github.com/Jaco020/JS-Mini-Projects/tree/master/ColorShades)  |  [Live Demo](https://jsprojects-color-shades.netlify.app/) |
 
