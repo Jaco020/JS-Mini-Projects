@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pass.css">
+    <script src="https://kit.fontawesome.com/086b12d3c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="result">
+        <div class="form-control">
+            <input id="length" type="text" value="6">
+            <label>Password Length</label>
+        </div>
+        <div class="form-control">
+            <input id="uppercase" type="checkbox" checked>
+            <i class="fas fa-check"></i>
+            <label for="uppercase">Uppercase</label>
+        </div>
+        <div class="form-control">
+            <input id="lowercase" type="checkbox" checked>
+            <i class="fas fa-check"></i>
+            <label for="lowercase">Lowercase</label>
+        </div>
+        <div class="form-control">
+            <input id="numbers" type="checkbox" checked>
+            <i class="fas fa-check"></i>
+            <label for="numbers">Numbers</label>
+        </div>
+        <div class="form-control">
+            <input id="symbols" type="checkbox" checked>
+            <i class="fas fa-check"></i>
+            <label for="symbols">Symbols</label>
+        </div>
+        <div id="generate">Generate</div>
+    </div>
+    <script src="pass.js"></script>
+</body>
+</html>

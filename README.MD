@@ -10,4 +10,5 @@ SEE LIST 👇
 | 3 | [IMG-Slider](https://github.com/Jaco020/JS-Mini-Projects/tree/master/IMG-Slider)  |  [Live Demo](https://jsprojects-img-slider.netlify.app/) |
 | 4 | [Quote-app](https://github.com/Jaco020/JS-Mini-Projects/tree/master/Quote-app)  |  [Live Demo](https://jsprojects-quote-app.netlify.app/) |
 | 5 | [ColorShades](https://github.com/Jaco020/JS-Mini-Projects/tree/master/ColorShades)  |  [Live Demo](https://jsprojects-color-shades.netlify.app/) |
+| 6 | [Password Generator](https://github.com/Jaco020/JS-Mini-Projects/tree/master/PasswordGenerator)  |  [Live Demo](https://jsprojects-password-generator.netlify.app/) |
 
