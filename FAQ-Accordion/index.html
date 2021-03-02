@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faq Accordion</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Verdana";
+            text-align: center;
+            background: #24C6DC;
+            background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100% );
+            background-repeat: no-repeat;
+            color: #fff;
+            min-height: 100vh;
+        }
+        h1{
+            padding-top: 60px;
+            margin-bottom: 60px;
+            font-size:45px;
+            font-weight: normal;
+            letter-spacing: 6px;
+        }
+        .accordion{
+            text-align: left;
+            width: 600px;
+            background-color: #353837;
+            margin: 0 auto;
+        }
+        .accordion__question{
+            padding: 20px 15px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            transition: 0.3s;
+        }
+        .accordion__question:hover{
+            background-color: #464948;
+            cursor: pointer;
+        }
+        .question--active{
+            background-color: #464948;
+        }
+        .accordion__answer{
+            height: 0;
+            overflow: hidden;
+            background-color: #2b2e2d;
+            line-height: 1.4;
+            transition: height .4s ease;
+        }
+        .answer-p{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <div class="accordion">
+        <div class="accordion__question"><p>Accordion item #1</p><p class="symbol">+</p></div>
+        <div class="accordion__answer">
+            <p class="answer-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe inventore dolore ea, deleniti nulla hic dolorum iusto maxime nesciunt ab labore alias esse neque qui fugit explicabo dicta corrupti  
+            </p>
+            
+        </div>
+        <div class="accordion__question"><p>Accordion item #2</p><p class="symbol">+</p></div>
+        <div class="accordion__answer">
+            <p class="answer-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe inventore dolore ea, deleniti nulla hic dolorum iusto maxime nesciunt ab labore alias esse neque qui fugit explicabo dicta corrupti  
+            </p>
+        </div>
+        <div class="accordion__question"><p>Accordion item #3</p><p class="symbol">+</p></div>
+        <div class="accordion__answer">
+            <p class="answer-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe inventore dolore ea, deleniti nulla hic dolorum iusto maxime nesciunt ab labore alias esse neque qui fugit explicabo dicta corrupti  
+            </p>
+        </div>
+        <div class="accordion__question"><p>Accordion item #4</p><p class="symbol">+</p></div>
+        <div class="accordion__answer">
+            <p class="answer-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe inventore dolore ea, deleniti nulla hic dolorum iusto maxime nesciunt ab labore alias esse neque qui fugit explicabo dicta corrupti  
+            </p>
+        </div>
+    </div>
+    <script src="accordion.js"></script>
+</body>
+</html>
